@@ -1,0 +1,23 @@
+{
+  "name": "autoweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel landing/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elliotrpmorris/autoweb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elliotrpmorris/autoweb/issues"
+  },
+  "homepage": "https://github.com/elliotrpmorris/autoweb#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  }
+}
