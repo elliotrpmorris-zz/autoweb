@@ -1,3 +1,10 @@
+.cta{
+
+  &__strong{
+    color: #ce181e;
+  }
+}
+
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
@@ -15,10 +22,10 @@
     position: absolute;
     left: 10px;
     bottom: -5px;
-    background-color: #CE181E;
+    background-color: #ce181e;
     color: #fff;
     line-height: 1;
-    padding: .75rem;
+    padding: 0.75rem;
     border-radius: 2px;
     font-size: 1rem;
   }
@@ -32,4 +39,73 @@
     position: relative;
     cursor: pointer;
   }
+}
+
+/* Tabs */
+.tabs {
+  margin: 1.5rem 0;
+
+  &-list {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+
+    li {
+      width: 100px;
+      float: left;
+      margin: 0px;
+      margin-right: 2px;
+      padding: 10px 5px;
+      text-align: center;
+      background-color: black;
+
+      a {
+        text-decoration: none;
+        color: white;
+      }
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+  .tab {
+    display: none;
+    min-height: 250px;
+    height: auto;
+    padding: 20px 15px;
+    background-color: #fff;
+    border: 1px solid #000;
+    color: darkslategray;
+    clear: both;
+    h3 {
+  border-bottom: 3px solid #ce181e;
+  letter-spacing: 1px;
+  font-weight: normal;
+  padding: 5px;
+}
+  }
+}
+
+/* tab list item */
+
+
+/* Tab content section */
+.tabs
+.tabs .tab 
+.tabs .tab p {
+  line-height: 20px;
+  letter-spacing: 1px;
+}
+
+/* When active state */
+.active {
+  display: block !important;
+}
+.tabs .tabs-list li.active {
+  background-color: #ce181e;
+  color: #fff;
+}
+.active a {
+  color: #fff;
 }
