@@ -770,18 +770,26 @@ h1, h2, h3, h4, h5, h6, p, a {
 /* Tabs */
 .tabs {
   margin: 1.5rem 0; }
+  .tabs .active {
+    display: flex !important; }
+    .tabs .active a {
+      color: #fff; }
   .tabs-list {
     list-style: none;
     margin: 0px;
-    padding: 0px; }
+    padding: 0px;
+    display: flex; }
     .tabs-list li {
       width: 100px;
-      float: left;
       margin: 0px;
       margin-right: 2px;
       padding: 10px 5px;
       text-align: center;
-      background-color: black; }
+      background-color: #000;
+      justify-content: center; }
+      .tabs-list li.active {
+        background-color: #ce181e;
+        color: #fff; }
       .tabs-list li a {
         text-decoration: none;
         color: white; }
@@ -792,34 +800,13 @@ h1, h2, h3, h4, h5, h6, p, a {
     min-height: 250px;
     height: auto;
     padding: 20px 15px;
-    background-color: #fff;
-    border: 1px solid #000;
-    color: darkslategray;
-    clear: both; }
+    background-color: #eee;
+    flex-direction: column; }
     .tabs .tab h3 {
       border-bottom: 3px solid #ce181e;
       letter-spacing: 1px;
       font-weight: normal;
       padding: 5px; }
-
-/* tab list item */
-/* Tab content section */
-.tabs
-.tabs .tab
-.tabs .tab p {
-  line-height: 20px;
-  letter-spacing: 1px; }
-
-/* When active state */
-.active {
-  display: block !important; }
-
-.tabs .tabs-list li.active {
-  background-color: #ce181e;
-  color: #fff; }
-
-.active a {
-  color: #fff; }
 
 
 /*# sourceMappingURL=/style.1dc133ea.css.map */
