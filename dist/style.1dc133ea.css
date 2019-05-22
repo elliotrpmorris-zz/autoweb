@@ -1,6 +1,5 @@
 @charset "UTF-8";
 /* Utils */
-@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 /*
  * Grid
  * —
@@ -727,7 +726,8 @@ figure {
   text-align: center;
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  margin: 1rem 0; }
   @media (min-width: 960px) {
     .nav {
       flex-wrap: nowrap; } }
