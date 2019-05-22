@@ -2,14 +2,17 @@
   &__inner{
     display: flex;
     align-items: center;
-
+  }
+  &__img{
+    width: 100%;
+    height: auto;
   }
   &__title {
     font-size: 1.75rem;
     font-weight: bold;
     text-align: center;
 
-    @include bp-md {
+    @include bp-lg {
       text-align: right;
       font-size: 2rem;
     }
